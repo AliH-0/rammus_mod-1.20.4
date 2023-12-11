@@ -1,6 +1,7 @@
 package net.bradater.rammusmod;
 
 import com.mojang.logging.LogUtils;
+import net.bradater.rammusmod.block.ModBlocks;
 import net.bradater.rammusmod.item.ModCreativeModeTabs;
 import net.bradater.rammusmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -35,6 +36,7 @@ public class RammusMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -55,6 +57,7 @@ public class RammusMod
     }
 
     // Add the example block item to the building blocks tab
+
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         //added item to creative mode tab
