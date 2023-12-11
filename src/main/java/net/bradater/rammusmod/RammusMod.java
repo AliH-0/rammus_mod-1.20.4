@@ -1,6 +1,7 @@
 package net.bradater.rammusmod;
 
 import com.mojang.logging.LogUtils;
+import net.bradater.rammusmod.item.ModCreativeModeTabs;
 import net.bradater.rammusmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -30,6 +31,8 @@ public class RammusMod
     public RammusMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
