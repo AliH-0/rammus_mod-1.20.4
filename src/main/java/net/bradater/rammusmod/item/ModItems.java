@@ -17,6 +17,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAMMUS = ITEMS.register("rammus",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAMBALL = ITEMS.register("ramball",
+            () -> new Item(new Item.Properties()));
     //also need to register the deferreregister
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

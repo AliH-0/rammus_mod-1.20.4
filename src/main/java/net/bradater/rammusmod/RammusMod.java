@@ -57,6 +57,7 @@ public class RammusMod
         //added item to creative mode tab
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RAMMUS);
+            event.accept(ModItems.RAMBALL);
         }
 
     }
