@@ -21,9 +21,10 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.RAMMUS.get());
                         pOutput.accept(ModItems.RAMBALL.get());
+                        pOutput.accept(ModItems.RAMSHELL.get());
 
                         pOutput.accept(ModBlocks.RAMMUS_BLOCK.get());
-                        pOutput.accept(ModBlocks.OK_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAMMUS_ORE_BLOCK.get());
                     })
                     .build());
 

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "rammusmod:block/ok_block"
+    "all": "rammusmod:block/rammus_ore_block"
   }
 }

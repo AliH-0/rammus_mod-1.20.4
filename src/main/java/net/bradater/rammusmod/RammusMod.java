@@ -64,6 +64,7 @@ public class RammusMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RAMMUS);
             event.accept(ModItems.RAMBALL);
+            event.accept(ModItems.RAMSHELL);
         }
 
     }

@@ -1,9 +1,10 @@
 {
   "item.rammusmod.rammus": "Rammus",
   "item.rammusmod.ramball": "Rammus Ball",
+  "item.rammusmod.ramshell": "Rammus' Shell",
 
   "block.rammusmod.rammus_block": "Rammus Block",
-  "block.rammusmod.ok_block": "OK Block",
+  "block.rammusmod.rammus_ore_block": "Rammus Ore Block",
 
 
   "creativetab.rammus_tab": "Rammus Tab"

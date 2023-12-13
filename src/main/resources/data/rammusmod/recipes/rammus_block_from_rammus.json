@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+
+  "key": {
+    "#": {
+
+    "item": "rammusmod:rammus"
+  }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "rammusmod:rammus_block"
+  }
+}

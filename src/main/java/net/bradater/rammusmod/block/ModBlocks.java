@@ -21,7 +21,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> RAMMUS_BLOCK = registerBlock("rammus_block",
             () -> new Block(BlockBehaviour.Properties.m_308003_(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
-    public static final RegistryObject<Block> OK_BLOCK = registerBlock("ok_block",
+    public static final RegistryObject<Block> RAMMUS_ORE_BLOCK = registerBlock("rammus_ore_block",
             () -> new Block(BlockBehaviour.Properties.m_308003_(Blocks.IRON_BLOCK).sound(SoundType.WOOD)));
 
     private static<T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
